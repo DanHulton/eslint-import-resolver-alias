@@ -1,27 +1,8 @@
 # eslint-import-resolver-alias
 
-[![Version npm][version]](http://browsenpm.org/package/eslint-import-resolver-alias)
-![Version node][node]
-[![Build Status][build]](https://travis-ci.org/johvin/eslint-import-resolver-alias)
-[![Download][download]](https://www.npmjs.com/package/eslint-import-resolver-alias)
-[![Dependencies][david]](https://david-dm.org/johvin/eslint-import-resolver-alias)
-![peerDependencies][peer]
-[![Coverage Status][cover]](https://coveralls.io/github/johvin/eslint-import-resolver-alias?branch=master)
-[![Known Vulnerabilities][vulnerabilities]](https://snyk.io/test/npm/eslint-import-resolver-alias)
-[![License][license]](https://opensource.org/licenses/MIT)
-
-[version]: http://img.shields.io/npm/v/eslint-import-resolver-alias.svg?style=flat-square
-[node]: https://img.shields.io/node/v/eslint-import-resolver-alias/latest.svg?style=flat-square
-[build]: http://img.shields.io/travis/johvin/eslint-import-resolver-alias/master.svg?style=flat-square
-[download]: https://img.shields.io/npm/dm/eslint-import-resolver-alias.svg?style=flat-square
-[david]: https://img.shields.io/david/johvin/eslint-import-resolver-alias.svg?style=flat-square
-[peer]: https://img.shields.io/david/peer/johvin/eslint-import-resolver-alias.svg?style=flat-square
-[cover]: http://img.shields.io/coveralls/johvin/eslint-import-resolver-alias/master.svg?style=flat-square
-[vulnerabilities]: https://snyk.io/test/npm/eslint-import-resolver-alias/badge.svg?style=flat-square
-[license]: https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square
-
-
 This is a simple Node.js module import resolution plugin for [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import), which supports native Node.js module resolution, module alias/mapping and custom file extensions.
+
+NOTE: This package is an update of [the original](https://github.com/johvin/eslint-import-resolver-alias), modified to allow for arrays of aliases.  At this time, it is provided as a convenience only, until the [original maintainer](https://github.com/johvin) is able to return and address the PR containing this code.  Any issues or bug reports not explicitly related to the alias array modifications are better addressed against the original repository.
 
 
 ## Installation
