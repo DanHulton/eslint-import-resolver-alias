@@ -1,6 +1,6 @@
 {
   "name": "eslint-import-resolver-alias-array",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias, modified to allow for arrays of aliases.",
   "main": "index.js",
   "scripts": {
