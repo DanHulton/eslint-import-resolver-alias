@@ -1,7 +1,7 @@
 {
-  "name": "eslint-import-resolver-alias",
-  "version": "1.1.2",
-  "description": "a simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias.",
+  "name": "eslint-import-resolver-alias-array",
+  "version": "1.2.1",
+  "description": "A simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias, modified to allow for arrays of aliases.",
   "main": "index.js",
   "scripts": {
     "release": "node build/release.js",
@@ -31,7 +31,7 @@
   "engines": {
     "node": ">= 4"
   },
-  "author": "johvin",
+  "author": "johvin, Dan Hulton",
   "license": "MIT",
   "devDependencies": {
     "adjust-md-for-publish": "^1.0.0",
@@ -47,10 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johvin/eslint-import-resolver-alias.git"
+    "url": "git+https://github.com/DanHulton/eslint-import-resolver-alias-array.git"
   },
   "bugs": {
-    "url": "https://github.com/johvin/eslint-import-resolver-alias/issues"
+    "url": "https://github.com/DanHulton/eslint-import-resolver-alias-array/issues"
   },
-  "homepage": "https://github.com/johvin/eslint-import-resolver-alias#readme"
+  "homepage": "https://github.com/DanHulton/eslint-import-resolver-alias-array#readme"
 }
