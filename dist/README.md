@@ -10,7 +10,7 @@ NOTE: This package is an update of [the original](https://github.com/johvin/esli
 Prerequisites: Node.js >=4.x and corresponding version of npm.
 
 ```shell
-npm install eslint-plugin-import eslint-import-resolver-alias --save-dev
+npm install eslint-plugin-import eslint-import-resolver-alias-array --save-dev
 ```
 
 
@@ -23,7 +23,7 @@ Pass this resolver and its parameters to `eslint-plugin-import` using your `esli
 module.exports = {
   settings: {
     'import/resolver': {
-      alias: {
+      'alias-array': {
         map: [
           ['babel-polyfill', 'babel-polyfill/dist/polyfill.min.js'],
           ['helper', './utils/helper'],
@@ -56,7 +56,7 @@ Note:
 module.exports = {
   settings: {
     'import/resolver': {
-      alias: [
+      'alias-array': [
         ['babel-polyfill', 'babel-polyfill/dist/polyfill.min.js'],
         ['helper', './utils/helper'],
         ['material-ui/DatePicker', '../custom/DatePicker'],
